@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 
 export default function Home() {
-  const [inputValue, setInputValue] = useState(1000000);
+  const [inputValue, setInputValue] = useState(31000000);
 
   const staticUrl = `/static-html/${inputValue}`;
   const ssrUrl = `/server-side-rendering/${inputValue}`;
